@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76DF65691CD468100042340A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DF65681CD468100042340A /* AppDelegate.swift */; };
+		76DF656B1CD468100042340A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DF656A1CD468100042340A /* ViewController.swift */; };
+		76DF656E1CD468100042340A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76DF656C1CD468100042340A /* Main.storyboard */; };
+		76DF65701CD468100042340A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76DF656F1CD468100042340A /* Assets.xcassets */; };
+		76DF65731CD468100042340A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76DF65711CD468100042340A /* LaunchScreen.storyboard */; };
+		76DF657E1CD468100042340A /* CanvaChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DF657D1CD468100042340A /* CanvaChallengeTests.swift */; };
+		76DF65891CD468110042340A /* CanvaChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DF65881CD468110042340A /* CanvaChallengeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76DF657A1CD468100042340A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76DF655D1CD468100042340A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76DF65641CD468100042340A;
+			remoteInfo = CanvaChallenge;
+		};
+		76DF65851CD468110042340A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76DF655D1CD468100042340A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76DF65641CD468100042340A;
+			remoteInfo = CanvaChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76DF65651CD468100042340A /* CanvaChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CanvaChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76DF65681CD468100042340A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		76DF656A1CD468100042340A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		76DF656D1CD468100042340A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76DF656F1CD468100042340A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76DF65721CD468100042340A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76DF65741CD468100042340A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76DF65791CD468100042340A /* CanvaChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanvaChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76DF657D1CD468100042340A /* CanvaChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvaChallengeTests.swift; sourceTree = "<group>"; };
+		76DF657F1CD468100042340A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76DF65841CD468110042340A /* CanvaChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanvaChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76DF65881CD468110042340A /* CanvaChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvaChallengeUITests.swift; sourceTree = "<group>"; };
+		76DF658A1CD468110042340A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76DF65621CD468100042340A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76DF65761CD468100042340A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76DF65811CD468110042340A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76DF655C1CD468100042340A = {
+			isa = PBXGroup;
+			children = (
+				76DF65671CD468100042340A /* CanvaChallenge */,
+				76DF657C1CD468100042340A /* CanvaChallengeTests */,
+				76DF65871CD468110042340A /* CanvaChallengeUITests */,
+				76DF65661CD468100042340A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76DF65661CD468100042340A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76DF65651CD468100042340A /* CanvaChallenge.app */,
+				76DF65791CD468100042340A /* CanvaChallengeTests.xctest */,
+				76DF65841CD468110042340A /* CanvaChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76DF65671CD468100042340A /* CanvaChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				76DF65681CD468100042340A /* AppDelegate.swift */,
+				76DF656A1CD468100042340A /* ViewController.swift */,
+				76DF656C1CD468100042340A /* Main.storyboard */,
+				76DF656F1CD468100042340A /* Assets.xcassets */,
+				76DF65711CD468100042340A /* LaunchScreen.storyboard */,
+				76DF65741CD468100042340A /* Info.plist */,
+			);
+			path = CanvaChallenge;
+			sourceTree = "<group>";
+		};
+		76DF657C1CD468100042340A /* CanvaChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				76DF657D1CD468100042340A /* CanvaChallengeTests.swift */,
+				76DF657F1CD468100042340A /* Info.plist */,
+			);
+			path = CanvaChallengeTests;
+			sourceTree = "<group>";
+		};
+		76DF65871CD468110042340A /* CanvaChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				76DF65881CD468110042340A /* CanvaChallengeUITests.swift */,
+				76DF658A1CD468110042340A /* Info.plist */,
+			);
+			path = CanvaChallengeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76DF65641CD468100042340A /* CanvaChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76DF658D1CD468110042340A /* Build configuration list for PBXNativeTarget "CanvaChallenge" */;
+			buildPhases = (
+				76DF65611CD468100042340A /* Sources */,
+				76DF65621CD468100042340A /* Frameworks */,
+				76DF65631CD468100042340A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CanvaChallenge;
+			productName = CanvaChallenge;
+			productReference = 76DF65651CD468100042340A /* CanvaChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76DF65781CD468100042340A /* CanvaChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76DF65901CD468110042340A /* Build configuration list for PBXNativeTarget "CanvaChallengeTests" */;
+			buildPhases = (
+				76DF65751CD468100042340A /* Sources */,
+				76DF65761CD468100042340A /* Frameworks */,
+				76DF65771CD468100042340A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76DF657B1CD468100042340A /* PBXTargetDependency */,
+			);
+			name = CanvaChallengeTests;
+			productName = CanvaChallengeTests;
+			productReference = 76DF65791CD468100042340A /* CanvaChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		76DF65831CD468110042340A /* CanvaChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76DF65931CD468110042340A /* Build configuration list for PBXNativeTarget "CanvaChallengeUITests" */;
+			buildPhases = (
+				76DF65801CD468110042340A /* Sources */,
+				76DF65811CD468110042340A /* Frameworks */,
+				76DF65821CD468110042340A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76DF65861CD468110042340A /* PBXTargetDependency */,
+			);
+			name = CanvaChallengeUITests;
+			productName = CanvaChallengeUITests;
+			productReference = 76DF65841CD468110042340A /* CanvaChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76DF655D1CD468100042340A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Caroline;
+				TargetAttributes = {
+					76DF65641CD468100042340A = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					76DF65781CD468100042340A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 76DF65641CD468100042340A;
+					};
+					76DF65831CD468110042340A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 76DF65641CD468100042340A;
+					};
+				};
+			};
+			buildConfigurationList = 76DF65601CD468100042340A /* Build configuration list for PBXProject "CanvaChallenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76DF655C1CD468100042340A;
+			productRefGroup = 76DF65661CD468100042340A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76DF65641CD468100042340A /* CanvaChallenge */,
+				76DF65781CD468100042340A /* CanvaChallengeTests */,
+				76DF65831CD468110042340A /* CanvaChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76DF65631CD468100042340A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76DF65731CD468100042340A /* LaunchScreen.storyboard in Resources */,
+				76DF65701CD468100042340A /* Assets.xcassets in Resources */,
+				76DF656E1CD468100042340A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76DF65771CD468100042340A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76DF65821CD468110042340A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76DF65611CD468100042340A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76DF656B1CD468100042340A /* ViewController.swift in Sources */,
+				76DF65691CD468100042340A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76DF65751CD468100042340A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76DF657E1CD468100042340A /* CanvaChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76DF65801CD468110042340A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76DF65891CD468110042340A /* CanvaChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76DF657B1CD468100042340A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76DF65641CD468100042340A /* CanvaChallenge */;
+			targetProxy = 76DF657A1CD468100042340A /* PBXContainerItemProxy */;
+		};
+		76DF65861CD468110042340A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76DF65641CD468100042340A /* CanvaChallenge */;
+			targetProxy = 76DF65851CD468110042340A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76DF656C1CD468100042340A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76DF656D1CD468100042340A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76DF65711CD468100042340A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76DF65721CD468100042340A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76DF658B1CD468110042340A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		76DF658C1CD468110042340A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76DF658E1CD468110042340A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CanvaChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Caroline.CanvaChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		76DF658F1CD468110042340A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CanvaChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Caroline.CanvaChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		76DF65911CD468110042340A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CanvaChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Caroline.CanvaChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CanvaChallenge.app/CanvaChallenge";
+			};
+			name = Debug;
+		};
+		76DF65921CD468110042340A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CanvaChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Caroline.CanvaChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CanvaChallenge.app/CanvaChallenge";
+			};
+			name = Release;
+		};
+		76DF65941CD468110042340A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CanvaChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Caroline.CanvaChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CanvaChallenge;
+			};
+			name = Debug;
+		};
+		76DF65951CD468110042340A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CanvaChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Caroline.CanvaChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CanvaChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76DF65601CD468100042340A /* Build configuration list for PBXProject "CanvaChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76DF658B1CD468110042340A /* Debug */,
+				76DF658C1CD468110042340A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76DF658D1CD468110042340A /* Build configuration list for PBXNativeTarget "CanvaChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76DF658E1CD468110042340A /* Debug */,
+				76DF658F1CD468110042340A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		76DF65901CD468110042340A /* Build configuration list for PBXNativeTarget "CanvaChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76DF65911CD468110042340A /* Debug */,
+				76DF65921CD468110042340A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		76DF65931CD468110042340A /* Build configuration list for PBXNativeTarget "CanvaChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76DF65941CD468110042340A /* Debug */,
+				76DF65951CD468110042340A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76DF655D1CD468100042340A /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module TakeHomeTask {
+  umbrella header "TakeHomeTask.h"
+
+  export *
+  module * { export * }
+}

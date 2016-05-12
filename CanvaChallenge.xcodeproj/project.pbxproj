@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		762CCFB11CDF8B30004B7E6E /* DisplayMosaic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762CCFB01CDF8B30004B7E6E /* DisplayMosaic.swift */; };
+		76355B9C1CD4A6E2007999AE /* TakeHomeTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76DF65961CD468290042340A /* TakeHomeTask.framework */; };
+		76355B9D1CD4A6E2007999AE /* TakeHomeTask.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 76DF65961CD468290042340A /* TakeHomeTask.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		76355BA01CD4A6F5007999AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76355B9F1CD4A6F5007999AE /* CoreGraphics.framework */; };
+		76355BA21CD4ABA4007999AE /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76355BA11CD4ABA4007999AE /* CoreImage.framework */; };
+		769B617B1CE0EF3C00C8E386 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 769B617A1CE0EF3C00C8E386 /* UIImage+Resize.m */; };
 		76DF65691CD468100042340A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DF65681CD468100042340A /* AppDelegate.swift */; };
 		76DF656B1CD468100042340A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DF656A1CD468100042340A /* ViewController.swift */; };
 		76DF656E1CD468100042340A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76DF656C1CD468100042340A /* Main.storyboard */; };
@@ -33,7 +39,27 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		76355B9E1CD4A6E2007999AE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				76355B9D1CD4A6E2007999AE /* TakeHomeTask.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		762CCFB01CDF8B30004B7E6E /* DisplayMosaic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayMosaic.swift; sourceTree = "<group>"; };
+		76355B9F1CD4A6F5007999AE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		76355BA11CD4ABA4007999AE /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		769B61781CE0EF3C00C8E386 /* CanvaChallenge-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CanvaChallenge-Bridging-Header.h"; sourceTree = "<group>"; };
+		769B61791CE0EF3C00C8E386 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		769B617A1CE0EF3C00C8E386 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
 		76DF65651CD468100042340A /* CanvaChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CanvaChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76DF65681CD468100042340A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76DF656A1CD468100042340A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +73,7 @@
 		76DF65841CD468110042340A /* CanvaChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanvaChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76DF65881CD468110042340A /* CanvaChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvaChallengeUITests.swift; sourceTree = "<group>"; };
 		76DF658A1CD468110042340A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76DF65961CD468290042340A /* TakeHomeTask.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TakeHomeTask.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +81,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76355BA21CD4ABA4007999AE /* CoreImage.framework in Frameworks */,
+				76355BA01CD4A6F5007999AE /* CoreGraphics.framework in Frameworks */,
+				76355B9C1CD4A6E2007999AE /* TakeHomeTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +107,8 @@
 		76DF655C1CD468100042340A = {
 			isa = PBXGroup;
 			children = (
+				76355BA11CD4ABA4007999AE /* CoreImage.framework */,
+				76355B9F1CD4A6F5007999AE /* CoreGraphics.framework */,
 				76DF65671CD468100042340A /* CanvaChallenge */,
 				76DF657C1CD468100042340A /* CanvaChallengeTests */,
 				76DF65871CD468110042340A /* CanvaChallengeUITests */,
@@ -97,12 +129,17 @@
 		76DF65671CD468100042340A /* CanvaChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				76DF65961CD468290042340A /* TakeHomeTask.framework */,
 				76DF65681CD468100042340A /* AppDelegate.swift */,
 				76DF656A1CD468100042340A /* ViewController.swift */,
+				762CCFB01CDF8B30004B7E6E /* DisplayMosaic.swift */,
+				769B61791CE0EF3C00C8E386 /* UIImage+Resize.h */,
+				769B617A1CE0EF3C00C8E386 /* UIImage+Resize.m */,
 				76DF656C1CD468100042340A /* Main.storyboard */,
 				76DF656F1CD468100042340A /* Assets.xcassets */,
 				76DF65711CD468100042340A /* LaunchScreen.storyboard */,
 				76DF65741CD468100042340A /* Info.plist */,
+				769B61781CE0EF3C00C8E386 /* CanvaChallenge-Bridging-Header.h */,
 			);
 			path = CanvaChallenge;
 			sourceTree = "<group>";
@@ -135,6 +172,7 @@
 				76DF65611CD468100042340A /* Sources */,
 				76DF65621CD468100042340A /* Frameworks */,
 				76DF65631CD468100042340A /* Resources */,
+				76355B9E1CD4A6E2007999AE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,6 +294,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				762CCFB11CDF8B30004B7E6E /* DisplayMosaic.swift in Sources */,
+				769B617B1CE0EF3C00C8E386 /* UIImage+Resize.m in Sources */,
 				76DF656B1CD468100042340A /* ViewController.swift in Sources */,
 				76DF65691CD468100042340A /* AppDelegate.swift in Sources */,
 			);
@@ -399,10 +439,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CanvaChallenge",
+				);
 				INFOPLIST_FILE = CanvaChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Caroline.CanvaChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CanvaChallenge/CanvaChallenge-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -410,10 +458,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CanvaChallenge",
+				);
 				INFOPLIST_FILE = CanvaChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Caroline.CanvaChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CanvaChallenge/CanvaChallenge-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -482,6 +537,7 @@
 				76DF658F1CD468110042340A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76DF65901CD468110042340A /* Build configuration list for PBXNativeTarget "CanvaChallengeTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +546,7 @@
 				76DF65921CD468110042340A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76DF65931CD468110042340A /* Build configuration list for PBXNativeTarget "CanvaChallengeUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +555,7 @@
 				76DF65951CD468110042340A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
